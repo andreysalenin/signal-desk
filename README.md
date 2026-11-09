@@ -8,8 +8,11 @@ fund holdings (13F) and short interest (FINRA).
 AES-256-GCM, using a key derived from the password with PBKDF2-SHA256 (600,000 rounds).
 Nothing in this repository is readable without the password.
 
-Data snapshot: stock prices through 6 Nov 2026, FX through 30 Oct 2026, futures positioning
+Data snapshot: stock prices through 6 Nov 2026, FX (Federal Reserve) through 30 Oct 2026, futures positioning
 as of 3 Nov 2026, insider filings through 6 Nov 2026, short interest as of 15 Oct 2026,
 13F holdings for the quarter to 30 Jun 2026.
+
+On opening, the Forex desk adds any newer days from the European Central Bank's daily
+reference rates (via the free Frankfurter API).
 
 Not financial advice.
